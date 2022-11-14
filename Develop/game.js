@@ -40,7 +40,7 @@ let questions = [
         choice2: "curly brackets",
         choice3: "quotes",
         choice4: "parenthesis",
-        answer: 2,
+        answer: 4,
     },
     {
         question: "A very useful tool used during development and debugging for printing content to the debugger is:",
@@ -52,7 +52,7 @@ let questions = [
     }
 ]
 
-const SCORE_POINTS = 10
+const SCORE_POINTS = 20
 const MAX_QUESTIONS = 5
 
 startGame = () => {
@@ -67,7 +67,7 @@ startGame = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
         
-        return window.location.assign("/end.html");
+        return window.location.assign("endPage.html");
     }
 
     questionCounter++
