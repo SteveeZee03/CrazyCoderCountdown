@@ -120,6 +120,10 @@ input::placeholder {
     border: none;
 }
 
+#countdown{
+    font-size: 16px;
+}
+
 
 
 
