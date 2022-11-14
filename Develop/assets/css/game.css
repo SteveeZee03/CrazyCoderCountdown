@@ -1,0 +1,67 @@
+/* Questions source:"CrazyCoderCoundown (CCC)\Develop\assets\images\04-web-apis-homework-demo.gif"*/
+
+body {
+    color: white;
+}
+
+/*Choice List Style Options*/
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(122, 11, 174);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 .1rem 0.7rem 0 rgb(250, 250, 250);
+    transform: scale(1.01);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+    font-size: 25px;
+}
+
+.correct {
+    background: linear-gradient(35deg, rgb(102, 255, 0) 0%, rgb(77, 187, 4) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(35deg, rgb(170, 9, 9) 0%, rgb(229, 33, 7) 100%);
+}
+
+/*HeadUpDisplay Style Options*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
