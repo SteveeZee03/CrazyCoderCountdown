@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size:  1rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -52,10 +52,6 @@ h2 {
     text-align: center;
 }
 
-.hidden{
-    display: none;
-}
-
 /*Button Style*/
 .btn {
     font-size: 2.5rem;
@@ -66,7 +62,7 @@ h2 {
     text-decoration: none;
     color: white;
     background: linear-gradient(90deg, rgb(122, 11, 174)0%,rgb(148, 74, 182)100%);
-    border-radius: 25px;
+    border-radius: 1.56rem;
 }
 
 .btn:hover {
